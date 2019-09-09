@@ -47,8 +47,9 @@ input {
   min-width: 300px;
   width: 60%;
   min-height: 300px;
-  height: 60%;
+  height: 700px;
   margin: 50px auto;
+  position: relative;
 }
 
 .AC {
@@ -57,7 +58,90 @@ input {
   position: absolute;
   margin-top: -40px;
   margin-left: 10px;
-  height: 80px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.VM {
+  background-color: aliceblue;
+  border: 2px solid black;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 10px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.mempool {
+  background-color: aliceblue;
+  border: 2px solid black;
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+  margin-right: 10px;
+  height: 80%;
+  padding: 10px;
+  overflow: scroll;
+  width: 180px;
+}
+
+.tx-list {
+  text-align: left;
+}
+
+.execution {
+  background-color: aliceblue;
+  border: 2px solid black;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 40%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.tx-script-box {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.consensus {
+  background-color: aliceblue;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 50px;
+  margin-left: 10px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.storage {
+  background-color: aliceblue;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 100px;
+  margin-left: 40%;
+  height: 100px;
+  width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
