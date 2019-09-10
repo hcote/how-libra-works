@@ -5,7 +5,6 @@ function Validator() {
   const state = {
   }
   return (
-    <div>
         <div className="validator">
             <div className="AC">
                 <div>Admission Control</div>
@@ -31,7 +30,6 @@ function Validator() {
                 <div>Persistent Storage</div>
             </div>
         </div>
-    </div>
   );
 }
 

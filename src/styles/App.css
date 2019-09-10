@@ -6,17 +6,22 @@ body {
   text-align: center;
 }
 
-.App-header {
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title {
+  font-size: 24px;
   color: white;
 }
 
 /* Custom CSS */
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+i {
+  margin: 0 auto;
+}
 
 input {
   display: block;
@@ -55,6 +60,38 @@ button {
   font-size: 60px;
 }
 
+/* Instructions */
+
+.instructions {
+  background-color: rgb(194, 161, 255);
+  height: 100vh;
+  float: right;
+  right: 0px;
+  top: 0px;
+  width: 400px;
+}
+
+.arrow-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.fa-arrow-right, .fa-arrow-left {
+  font-size: 24px;
+}
+
+.list {
+  margin: 50px 20px 20px 20px;
+}
+
+.list-item {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
 /* Code Snippets */
 
 .raw, .signed {
@@ -79,12 +116,13 @@ button {
 
 .validator {
   background-color: aliceblue;
-  min-width: 300px;
-  width: 60%;
+  min-width: 600px;
+  width: 80%;
   min-height: 300px;
   height: 700px;
   margin: 50px auto;
   position: relative;
+  display: block;
 }
 
 .AC {
