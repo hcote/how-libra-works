@@ -27,6 +27,34 @@ input {
   border-radius: 8px;
 }
 
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  display: inline;
+  margin: 10px 18px 20px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.form-clicked {
+  transform: scale(0.0);
+  display: none;
+  opacity: 0;
+  /* height: 1px; */
+  /* transition: display 500ms linear 500ms, opacity 500ms; */
+}
+
+.none {
+  display: none;
+}
+
+.fa {
+  color: aqua;
+  font-size: 60px;
+}
+
 /* Code Snippets */
 
 .raw, .signed {
@@ -38,9 +66,16 @@ input {
   text-align: left;
   font-size: 12px;
   padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* Validator */
+
+.validator-fadein {
+  visibility: visible;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
 
 .validator {
   background-color: aliceblue;
